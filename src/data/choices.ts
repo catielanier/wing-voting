@@ -1,4 +1,4 @@
-export const wings: string[] = [
+export const wings: readonly string[] = Object.freeze([
   "Fei-Long",
   "Whiff City Wings",
   "Easy Win(g)s",
@@ -7,4 +7,4 @@ export const wings: string[] = [
   "Tiger's Bite",
   "Wing Chun",
   "Touch Grass"
-];
+]);
